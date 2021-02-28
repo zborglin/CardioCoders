@@ -7,4 +7,4 @@ Cardiovascular disease is the leading cause of death in the United States. In or
 - What locations in the United States are associated with higher relative quantities of the leading predictors?
 
 ## Overview Diagram
-![Overview](https://github.com/zborglin/CardioCoders/blob/main/resources/images/Overview.png)
+![Overview](https://github.com/zborglin/CardioCoders/blob/main/resources/Overview.png)
