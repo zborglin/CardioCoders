@@ -27,3 +27,6 @@ Features:
 
 ## Overview Diagram
 ![Overview](https://github.com/zborglin/CardioCoders/blob/main/resources/Overview.png)
+
+## Communication Protocol
+Our entire group will meet a minimum of twice per week via Zoom to discuss upcoming deliverables and ensure everyone is on track. We will use Slack to communicate in between meetings and ad-hoc Zoom meetings will be scheduled as needed. If someone requires additional assistance with their portion of the project this will also be communicated through Slack or weekly meetings.  
