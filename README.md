@@ -33,5 +33,7 @@ Features:
 ### Discrepancies
 At first glance, the most notable issue is the 'age' column. Rather than years, the 'age' column is presented in days. This will require some type of conversion to improve the readibility and consistency of the dataset. There are about 600 data points in the diastolic blood pressure ('ap_lo') column that have a value of 1000, in addition to a few negative values in the systolic blood pressure ('ap_hi') column. The negative values in the 'ap_hi' column may have been caused by human-input error. However, there may be another underlying factor that caused the large discrepancy within the 'ap_lo' column. In this case, consulting a medical professional may help determine whether or not these data points need to be fixed or if they should simply be dropped. 
 
+![ap_hi](https://github.com/zborglin/CardioCoders/blob/main/resources/ap_hi_discrepancy_data.PNG) ![ap_lo](https://github.com/zborglin/CardioCoders/blob/main/resources/ap_lo_discrepancy_data.png)
+
 ### Data Transformation
 The first transformation is to convert 'age' column into years since it was presented in days. After loading the dataset into Jupyter Notebook, the 'age' column was duplicated and converted into years. The original 'age' column was then removed, and the new column was renamed. However, unlike the original, the new column's data type was and object and needed to be changed into an integer.
