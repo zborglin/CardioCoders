@@ -35,7 +35,7 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 
 <p float="left">
 <img src = "https://github.com/zborglin/CardioCoders/blob/main/resources/ap_lo_discrepancy_data.png" width="500" height="500"/>
-<img src = "https://github.com/zborglin/CardioCoders/blob/main/resources/ap_hi_discrepancy_data.PNG" width="500" height="500"/>
+<img src = "https://github.com/zborglin/CardioCoders/blob/main/resources/ap_hi_discrepancy_data.png" width="500" height="500"/>
 </p>
 
 ### Data Transformation
