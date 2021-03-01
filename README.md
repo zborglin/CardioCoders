@@ -11,7 +11,7 @@ The data was sourced from a Cardiovascular Dataset found in Kaggle. The dataset 
 
 Features:
 
-- Age 
+- Age (days)
 - Height (cm) 
 - Weight (kg) 
 - Gender (1-male; 2-female)
@@ -22,7 +22,7 @@ Features:
 - Smoking
 - Alcohol intake 
 - Physical activity 
-- Presence or absence of cardiovascular disease
+- Presence or absence of cardiovascular disease (target variable)
 
 
 ## Overview Diagram
