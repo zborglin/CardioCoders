@@ -1,4 +1,4 @@
-CREATE TABLE cardio2 (
+CREATE TABLE cardio_data (
 	id_no INT NOT NULL,
 	age INT NOT NULL,
 	gender INT NOT NULL,
@@ -15,4 +15,4 @@ CREATE TABLE cardio2 (
 	PRIMARY KEY (id_no)
 );
 
-SELECT * FROM cardio2;
+SELECT * FROM cardio_data;
