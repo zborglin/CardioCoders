@@ -64,5 +64,11 @@ target/
 .idea/
 .env
 
+#Redundant files
+resources/~$conversion_sheet.xlsx
+resources/~$stributions.docx
+
+
+
 # VS code
 .vscode
