@@ -40,3 +40,7 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 
 ### Data Transformation
 The first transformation is to convert 'age' column into years since it was presented in days. After loading the dataset into Jupyter Notebook, the 'age' column was duplicated and converted into years. The original 'age' column was then removed, and the new column was renamed. However, unlike the original, the new column's data type was and object and needed to be changed into an integer.
+
+
+### Deep Learning Neural Network Model Overview 
+A deep learning neural network model was chosen due to the size of the data set. After the data was cleaned, there were 67, 482 data points. The data was first loaded into a DataFrame. Then the features and target were defined. The data was the split into training and testing data. A StandardScaler instance was created to standardize the data. The model was then defined with the input features, three hidden layers, and an output layer. The relu activation function was chosen for the hidden layers because of it’s ability to handle nonlinear data. After statistical analysis, the activation functions may be changed if it is shown that there are linear relationships within the data. The sigmoid activation function was chosen for the output layer. The structure of the model was visualized using the summary method. The model was then compiled and trained with 100 epochs. The model was then evaluated and the loss metric and accuracy metric were obtained. The loss metric was 0.54 and the model accuracy was 0.73.
