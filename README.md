@@ -40,7 +40,7 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 <img src = "https://github.com/zborglin/CardioCoders/blob/main/resources/ap_hi_discrepancy_data.PNG" width="400" height="400"/>
 </p>
 
-We decided to drop the outlying data points associated with diastolic and systolic blood pressures, because they were extreme outliers that did not make sense. In researching diastolic and systolic blood pressures even further, we found information regarding blood pressure ranges, thanks to healthline.com. Below is a visual chart explaining the differences in blood pressure ranges.
+We decided to drop the outlying data points associated with diastolic and systolic blood pressures, because they were extreme outliers that did not make sense. In researching diastolic and systolic blood pressures even further, we found information regarding blood pressure ranges, thanks to healthline.com. Below is a visual chart explaining the differences in normal blood pressure ranges.
 
 <p align="center">
   <img width="500" height="800" src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
