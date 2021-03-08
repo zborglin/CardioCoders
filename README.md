@@ -43,7 +43,7 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 We decided to drop the outlying data points associated with diastolic and systolic blood pressures, because they were extreme outliers that did not make sense. In researching diastolic and systolic blood pressures even further, we found information regarding blood pressure ranges, thanks to healthline.com. Below is a visual chart explaining the differences in blood pressure ranges.
 
 <p align="center">
-  <img src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
+  <img width="800" height="350" src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
 </p>
 
 ### Data Transformation
