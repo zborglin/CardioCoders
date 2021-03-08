@@ -8,7 +8,7 @@ Cardiovascular disease is the leading cause of death in the United States. In or
 
 ## Overview Diagram
 <p align="center">
-  <imgvsrc="https://github.com/zborglin/CardioCoders/blob/main/resources/Overview.png">
+  <img src="https://github.com/zborglin/CardioCoders/blob/main/resources/Overview.png">
 </p>
 
 ## Communication Protocol
@@ -43,7 +43,7 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 We decided to drop the outlying data points associated with diastolic and systolic blood pressures, because they were extreme outliers that did not make sense. In researching diastolic and systolic blood pressures even further, we found information regarding blood pressure ranges, thanks to healthline.com. Below is a visual chart explaining the differences in blood pressure ranges.
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
+  <img width="200" height="600" src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
 </p>
 
 ### Data Transformation
