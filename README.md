@@ -38,6 +38,10 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 <img src = "https://github.com/zborglin/CardioCoders/blob/main/resources/ap_hi_discrepancy_data.PNG" width="400" height="400"/>
 </p>
 
+We decided to drop the outlying data points associated with diastolic and systolic blood pressures, because they were extreme outliers that did not make sense. In researching diastolic and systolic blood pressures even further, we found information regarding blood pressure ranges, thanks to healthline.com. Below is a visual chart explaining the differences in blood pressure ranges.
+
+![alt text](resources/BloodPressureReadings(healthline).png)
+
 ### Data Transformation
 The first transformation is to convert 'age' column into years since it was presented in days. After loading the dataset into Jupyter Notebook, the 'age' column was duplicated and converted into years. The original 'age' column was then removed, and the new column was renamed. However, unlike the original, the new column's data type was and object and needed to be changed into an integer.
 
