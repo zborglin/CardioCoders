@@ -35,7 +35,7 @@ Features:
 ### Discrepancies
 At first glance, the most notable issue is the 'age' column. Rather than years, the 'age' column is presented in days. This will require some type of conversion to improve the readibility and consistency of the dataset. There are about 600 data points in the diastolic blood pressure ('ap_lo') column that have a value of 1000, in addition to a few negative values in the systolic blood pressure ('ap_hi') column. The negative values in the 'ap_hi' column may have been caused by human-input error. However, there may be another underlying factor that caused the large discrepancy within the 'ap_lo' column. In this case, consulting a medical professional may help determine whether or not these data points need to be fixed or if they should simply be dropped. 
 
-<p float="left">
+<p align="center">
 <img src = "https://github.com/zborglin/CardioCoders/blob/main/resources/ap_lo_discrepancy_data.png" width="400" height="400"/>
 <img src = "https://github.com/zborglin/CardioCoders/blob/main/resources/ap_hi_discrepancy_data.PNG" width="400" height="400"/>
 </p>
@@ -43,7 +43,7 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 We decided to drop the outlying data points associated with diastolic and systolic blood pressures, because they were extreme outliers that did not make sense. In researching diastolic and systolic blood pressures even further, we found information regarding blood pressure ranges, thanks to healthline.com. Below is a visual chart explaining the differences in blood pressure ranges.
 
 <p align="center">
-  <img width="200" height="600" src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
+  <img src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
 </p>
 
 ### Data Transformation
