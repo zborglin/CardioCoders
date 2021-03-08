@@ -47,7 +47,7 @@ We decided to drop the outlying data points associated with diastolic and systol
 </p>
 
 ### Data Transformation
-The first transformation is to convert 'age' column into years since it was presented in days. After loading the dataset into Jupyter Notebook, the 'age' column was duplicated and converted into years. The original 'age' column was then removed, and the new column was renamed. However, unlike the original, the new column's data type was and object and needed to be changed into an integer.
+The first transformation is to convert 'age' column into years since it was presented in days. After loading the dataset into Jupyter Notebook, the 'age' column was duplicated and converted into years. The original 'age' column was then removed, and the new column was renamed. However, unlike the original, the new column's data type was and object and needed to be changed into an integer. Lastly, the 'age' column had to be converted to a whole number.  To get rid of the decimal points, the data needed to be rounded down to a whole number.
 
 
 ### Deep Learning Neural Network Model Overview 
