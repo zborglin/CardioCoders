@@ -19,7 +19,7 @@ The data was sourced from a Cardiovascular Dataset found in Kaggle. The dataset 
 
 Features:
 
-- Age (days)
+- Age (years)
 - Height (cm) 
 - Weight (kg) 
 - Gender (1-male; 2-female)
