@@ -7,7 +7,9 @@ Cardiovascular disease is the leading cause of death in the United States. In or
 - What locations in the United States are associated with higher relative quantities of the leading predictors?
 
 ## Overview Diagram
-![Overview](https://github.com/zborglin/CardioCoders/blob/main/resources/Overview.png)
+<p align="center">
+  <imgvsrc="https://github.com/zborglin/CardioCoders/blob/main/resources/Overview.png">
+</p>
 
 ## Communication Protocol
 Our entire group will meet a minimum of twice per week via Zoom to discuss upcoming deliverables and ensure everyone is on track. We will use Slack to communicate in between meetings and ad-hoc Zoom meetings will be scheduled as needed. If someone requires additional assistance with their portion of the project this will also be communicated through Slack or weekly meetings.  
@@ -40,7 +42,9 @@ At first glance, the most notable issue is the 'age' column. Rather than years, 
 
 We decided to drop the outlying data points associated with diastolic and systolic blood pressures, because they were extreme outliers that did not make sense. In researching diastolic and systolic blood pressures even further, we found information regarding blood pressure ranges, thanks to healthline.com. Below is a visual chart explaining the differences in blood pressure ranges.
 
-![alt text](resources/BloodPressureReadings(healthline).png)
+<p align="center">
+  <img width="600" height="200" src="https://github.com/zborglin/CardioCoders/blob/main/resources/BloodPressureReadings(healthline).png">
+</p>
 
 ### Data Transformation
 The first transformation is to convert 'age' column into years since it was presented in days. After loading the dataset into Jupyter Notebook, the 'age' column was duplicated and converted into years. The original 'age' column was then removed, and the new column was renamed. However, unlike the original, the new column's data type was and object and needed to be changed into an integer.
