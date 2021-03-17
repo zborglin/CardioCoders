@@ -15,12 +15,12 @@ Cardiovascular disease is the leading cause of death in the United States. In or
 Our entire group will meet a minimum of twice per week via Zoom to discuss upcoming deliverables and ensure everyone is on track. We will use Slack to communicate in between meetings and ad-hoc Zoom meetings will be scheduled as needed. If someone requires additional assistance with their portion of the project this will also be communicated through Slack or weekly meetings.  
 
 ## Data Source
-The data was sourced from a Cardiovascular Dataset found in Kaggle. The dataset consists of 70,000 patient records collected during medical examinations and contains 11 features.  
+The data was sourced from a Cardiovascular Dataset found in Kaggle. The dataset consists of 70,000 patient records collected during medical examinations and contains 12 features.  
 
 Features:
 
 - Age (years)
-- Height (cm) 
+- Height (ft) 
 - Weight (kg) 
 - Gender (1-male; 2-female)
 - Systolic blood pressure 
@@ -30,6 +30,7 @@ Features:
 - Smoking
 - Alcohol intake 
 - Physical activity 
+- BMI 
 - Presence or absence of cardiovascular disease (target variable)
 
 ### Discrepancies
