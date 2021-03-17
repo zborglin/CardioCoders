@@ -1,5 +1,6 @@
 # CardioCoders
 Data Bootcamp Group Project
+View the presentation here: [Slide Deck](https://docs.google.com/presentation/d/1oBxUtVcW1zA93FrCPOeBkb_oBnYHw_az_SMaeH34t9o/edit?usp=sharing)
 
 # Project Charter
 Cardiovascular disease is the leading cause of death in the United States. In order to identify which individuals are at the highest risk, a machine learning application is developed to identify the best predictors of disease to inform physician practice. This application aims to address the following:
