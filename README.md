@@ -58,3 +58,11 @@ The data was first loaded into a DataFrame. Then the features and target were de
 #### Model Changes
 There were a few changes made to the third draft of the model. Two additional hidden layers were added. The number of neurons in the input and hidden layers were altered. The number of epochs was decreased to 50 and then increased to 500. Features with the column names 'gluc', 'smoke', 'alco' were removed one at a time and the model was run. A BMI column was added to the DataFrame. A support vector model (SVM) and a Random Forest Classifer were both run using the data. Similar accuracy scores were obtained. 
 These alterations did not have a significant impact on model accuracy. 
+
+## Technology Used
+
+<p align="center">
+  <img src="https://github.com/zborglin/CardioCoders/blob/main/resources/jupyter.png">
+  <img src="https://github.com/zborglin/CardioCoders/blob/main/resources/PostgreSQL.png">
+  <img src="https://github.com/zborglin/CardioCoders/blob/main/resources/tableau image.png">
+</p>
